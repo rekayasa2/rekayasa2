@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas XI RPL 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><span class="forest-icon">🌳</span> XI RPL 2</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+                        <li><a href="#piket" class="nav-link">Piket</a></li>
+                        <li><a href="#jadwal" class="nav-link">Jadwal</a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1ye1ubKlA9TIQe6PkMRsaCuAutJJSCDNw?usp=drive_link" class="album">Album</a></li>
+                        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+                    </ul>
+                </nav>
+                <button id="theme-toggle" class="theme-toggle">
+                    <span class="theme-icon">🌙</span> Mode Terang
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Beranda -->
+            <section id="beranda" class="content-section active">
+                <div class="hero-section">
+                    <div class="hero-content">
+                        <h2>Selamat Datang di XI RPL 2</h2>
+                        <p>Kelas Rekayasa Perangkat Lunak yang kreatif dan inovatif</p>
+                        <button class="explore-btn">Lihat Piket</button>
+                    </div>
+                    <div class="hero-image">
+                        <div class="forest-scene">
+                            <img src="images\beranda.jpg" width="680px" height="350px" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">💻</div>
+                        <h3>Pemrograman</h3>
+                        <p>Belajar coding dan pengembangan software</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3>Team Work</h3>
+                        <p>Kolaborasi dalam project development</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌿</div>
+                        <h3>Lingkungan</h3>
+                        <p>Belajar dalam lingkungan yang nyaman</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Piket -->
+            <section id="piket" class="content-section">
+                <h2>Jadwal Piket Kelas</h2>
+                <p class="section-description">Tim piket harian yang menjaga kebersihan kelas</p>
+                
+                <div class="piket-container">
+                    <!-- Senin -->
+                    <div class="day-piket">
+                        <div class="day-header">
+                            <h3>Senin</h3>
+                            <div class="day-icon">🌿</div>
+                        </div>
+                        <div class="piket-photo-container">
+                            <div class="group-photo">
+                                <img src="images/senin.jpg" alt="Foto Piket Hari Senin" 
+                                     onerror="this.style.display='none'">
+                                <div class="photo-placeholder-large">
+                                    <div class="placeholder-icon">📸</div>
+                                    <p>Foto Tim Piket Senin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Selasa -->
+                    <div class="day-piket">
+                        <div class="day-header">
+                            <h3>Selasa</h3>
+                            <div class="day-icon">🍄</div>
+                        </div>
+                        <div class="piket-photo-container">
+                            <div class="group-photo">
+                                <img src="images/selasa.jpg" alt="Foto Piket Hari Selasa"
+                                     onerror="this.style.display='none'">
+                                <div class="photo-placeholder-large">
+                                    <div class="placeholder-icon">📸</div>
+                                    <p>Foto Tim Piket Selasa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rabu -->
+                    <div class="day-piket">
+                        <div class="day-header">
+                            <h3>Rabu</h3>
+                            <div class="day-icon">🌲</div>
+                        </div>
+                        <div class="piket-photo-container">
+                            <div class="group-photo">
+                                <img src="images/rabu.jpg" alt="Foto Piket Hari Rabu"
+                                     onerror="this.style.display='none'">
+                                <div class="photo-placeholder-large">
+                                    <div class="placeholder-icon">📸</div>
+                                    <p>Foto Tim Piket Rabu</p>
+                                </div>
+                            </div>
+                           </div>
+                    </div>
+
+                    <!-- Kamis -->
+                    <div class="day-piket">
+                        <div class="day-header">
+                            <h3>Kamis</h3>
+                            <div class="day-icon">🍃</div>
+                        </div>
+                        <div class="piket-photo-container">
+                            <div class="group-photo">
+                                <img src="images/kamis.jpg" alt="Foto Piket Hari Kamis"
+                                     onerror="this.style.display='none'">
+                                <div class="photo-placeholder-large">
+                                    <div class="placeholder-icon">📸</div>
+                                    <p>Foto Tim Piket Kamis</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jumat -->
+                    <div class="day-piket">
+                        <div class="day-header">
+                            <h3>Jumat</h3>
+                            <div class="day-icon">🌺</div>
+                        </div>
+                        <div class="piket-photo-container">
+                            <div class="group-photo">
+                                <img src="images/jumat.jpg" alt="Foto Piket Hari Jumat"
+                                     onerror="this.style.display='none'">
+                                <div class="photo-placeholder-large">
+                                    <div class="placeholder-icon">📸</div>
+                                    <p>Foto Tim Piket Jumat</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Jadwal -->
+            <section id="jadwal" class="content-section">
+                <h2>Jadwal Pelajaran</h2>
+                <p class="section-description">Jadwal pembelajaran XI RPL 2</p>
+                
+                <div class="schedule-container">
+                    <div class="schedule-nav">
+                        <button class="day-btn active" data-day="senin">Senin</button>
+                        <button class="day-btn" data-day="selasa">Selasa</button>
+                        <button class="day-btn" data-day="rabu">Rabu</button>
+                        <button class="day-btn" data-day="kamis">Kamis</button>
+                        <button class="day-btn" data-day="jumat">Jumat</button>
+                    </div>
+                    
+                    <div class="schedule-content">
+                        <!-- Jadwal akan di-load oleh JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Struktur Kelas (Tetap Ada) -->
+            <section id="struktur" class="content-section">
+                <h2>Struktur Kelas</h2>
+                <p class="section-description">Organisasi kelas XI RPL 2</p>
+                
+                <div class="flowchart-container">
+                    <!-- Level 1 - Wali Kelas -->
+                    <div class="flowchart-level">
+                        <div class="level-label">Pohon Induk</div>
+                        <div class="node-container">
+                            <div class="org-node main-node">
+                                <div class="node-image">
+                                    <div class="placeholder-img">👩‍🏫</div>
+                                </div>
+                                <div class="node-info">
+                                    <h3>Wali Kelas</h3>
+                                    <p>Bu Siti</p>
+                                    <p>Guru Matematika</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Konektor -->
+                    <div class="connector"></div>
+
+                    <!-- Level 2 - Pengurus Inti -->
+                    <div class="flowchart-level">
+                        <div class="level-label">Pohon Utama</div>
+                        <div class="node-container">
+                            <div class="org-node sub-node">
+                                <div class="node-image">
+                                    <div class="placeholder-img">👦</div>
+                                </div>
+                                <div class="node-info">
+                                    <h3>Ketua Kelas</h3>
+                                    <p>Andi Pratama</p>
+                                    <p>Koordinasi Kelas</p>
+                                </div>
+                            </div>
+                            <div class="org-node sub-node">
+                                <div class="node-image">
+                                    <div class="placeholder-img">👧</div>
+                                </div>
+                                <div class="node-info">
+                                    <h3>Wakil Ketua</h3>
+                                    <p>Sari Indah</p>
+                                    <p>Support Ketua</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Konektor -->
+                    <div class="connector"></div>
+
+                    <!-- Level 3 - Sekretaris & Bendahara -->
+                    <div class="flowchart-level">
+                        <div class="level-label">Pohon Pendukung</div>
+                        <div class="node-container">
+                            <div class="org-node sub-node">
+                                <div class="node-image">
+                                    <div class="placeholder-img">📝</div>
+                                </div>
+                                <div class="node-info">
+                                    <h3>Sekretaris</h3>
+                                    <p>Rina Wijaya</p>
+                                    <p>Administrasi</p>
+                                </div>
+                            </div>
+                            <div class="org-node sub-node">
+                                <div class="node-image">
+                                    <div class="placeholder-img">💰</div>
+                                </div>
+                                <div class="node-info">
+                                    <h3>Bendahara</h3>
+                                    <p>Budi Santoso</p>
+                                    <p>Keuangan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Konektor -->
+                    <div class="connector"></div>
+
+                    <!-- Level 4 - Anggota Kelas -->
+                    <div class="flowchart-level">
+                        <div class="level-label">Tanaman Hutan</div>
+                        <div class="node-container wide">
+                            <div class="org-node member-node">
+                                <div class="node-image small">
+                                    <div class="placeholder-img">🌱</div>
+                                </div>
+                                <div class="node-info">
+                                    <h4>Anggota Kelas</h4>
+                                    <p>25 Siswa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Album -->
+            <section id="album" class="content-section">
+                <h2>Album Kenangan</h2>
+                <p class="section-description">Momen-momen berharga kelas XI RPL 2</p>
+                
+                <div class="album-filters">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="belajar">Belajar</button>
+                    <button class="filter-btn" data-filter="praktek">Praktek</button>
+                    <button class="filter-btn" data-filter="olahraga">Olahraga</button>
+                </div>
+                
+                <div class="album-grid">
+                    <div class="album-card" data-category="belajar">
+                        <div class="album-image">
+                            <div class="image-placeholder">💻</div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Praktikum Pemrograman</h3>
+                            <p>Sesi coding dan development</p>
+                            <span class="album-date">15 Maret 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="album-card" data-category="praktek">
+                        <div class="album-image">
+                            <div class="image-placeholder">🔧</div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Project Development</h3>
+                            <p>Pengerjaan project kelompok</p>
+                            <span class="album-date">22 Maret 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="album-card" data-category="olahraga">
+                        <div class="album-image">
+                            <div class="image-placeholder">⚽</div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Lomba Olahraga</h3>
+                            <p>Turnamen antar kelas</p>
+                            <span class="album-date">5 April 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="album-card" data-category="belajar">
+                        <div class="album-image">
+                            <div class="image-placeholder">🌿</div>
+                        </div>
+                        <div class="album-info">
+                            <h3>Studi Lapangan</h3>
+                            <p>Kunjungan industri IT</p>
+                            <span class="album-date">12 April 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tentang -->
+            <section id="tentang" class="content-section">
+                <h2>Tentang XI RPL 2</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>XI RPL 2 adalah kelas Rekayasa Perangkat Lunak yang berfokus pada pengembangan software dan pemrograman. Kami belajar berbagai bahasa pemrograman dan teknologi terkini.</p>
+                        
+                        <div class="vision-mission">
+                            <div class="vm-card">
+                                <h3>🌿 Visi Kami</h3>
+                                <p>Menjadi programmer handal yang kreatif dan inovatif dalam mengembangkan solusi digital.</p>
+                            </div>
+                            <div class="vm-card">
+                                <h3>🎯 Misi Kami</h3>
+                                <p>Menguasai teknologi pemrograman dan berkontribusi dalam perkembangan digital Indonesia.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info">
+                            <h3>📞 Kontak Kami</h3>
+                            <p>Email: xerpeeltwoo@gmail.com</p>
+                            <p>IG @rekayasaperangkatlunaktwo</p>
+                            <p>Jurusan: Rekayasa Perangkat Lunak</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <div class="forest-illustration">
+                            <div class="floating-icon">💻</div>
+                            <div class="floating-icon">🌐</div>
+                            <div class="floating-icon">🔧</div>
+                            <div class="main-illustration">
+                                <div class="illustration-placeholder">🚀</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>XI RPL 2</h3>
+                    <p>Rekayasa Perangkat Lunak - Kelas Kreatif</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#piket">Piket</a></li>
+                        <li><a href="#jadwal">Jadwal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                       <ul>
+                        <li><a href="https://www.instagram.com/rekayasaperangkatlunaktwo/#">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@xirpldua?_t=ZS-8xxl296qS02&_r=1&fbclid=PAb21jcANPQ8lleHRuA2FlbQIxMQABp0bFKxX84-PqC2r7RLQTVseottRkdFwMA0ZMYtNMlRJTCmRzBSnpJ9v8aSrC_aem_1eY6HXuzvxy-S5mFJqq1_w">TikTok</a></li>
+                        <li><a href="https://m.youtube.com/@erpeeltwosmeksa?fbclid=PAT01DUANPQ7tleHRuA2FlbQIxMAABpxyWpkpfIDKJBWg3RrYi87Ig55BAF_9H-55KEI7PFqdDtGuRBpv4mAkpAX8-_aem_vtjnP0oEGMKzI9GQ2Nd4Yg">Youtube</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 XI RPL 2 Semua Hak Dilindungi</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
