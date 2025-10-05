@@ -20,7 +20,7 @@ const scheduleData = {
     ],
     rabu: [
         { time: "07:00 - 08:40", subject: "Bahasa Inggris", teacher: "Bu Susi", icon: "" },
-        { time: "08:40 - 09:40", subject: "Sejarah", teacher: "Bu", icon: "" },
+        { time: "08:40 - 09:40", subject: "Sejarah", teacher: "Bu Fifi", icon: "" },
         { time: "09:40 - 10:00", subject: "Istirahat", teacher: "", icon: "" },
         { time: "10:00 - 11:20", subject: "Olahraga", teacher: "Pak Aris", icon: "" },
         { time: "11:20 - 12:00", subject: "Website", teacher: "Pak Azis", icon: "" },
@@ -221,4 +221,5 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Muat tema yang disimpan
     loadSavedTheme();
+
 });
